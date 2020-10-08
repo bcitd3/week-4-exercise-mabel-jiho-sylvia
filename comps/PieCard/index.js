@@ -15,7 +15,7 @@ const PieCardBox = styled.div`
 
     .pie-wrapper {
         padding:auto;
-        
+
         background:
             radial-gradient(
                 circle closest-side,
@@ -36,6 +36,7 @@ const PieCardBox = styled.div`
         width: 150px;
         min-height: 150px;
         margin: 0;
+        
     }
     
     .pie-wrapper span:after {
