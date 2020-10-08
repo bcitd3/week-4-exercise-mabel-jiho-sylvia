@@ -26,6 +26,7 @@ const PercentBox = styled.div`
         font-size:27px;
         color:#000;
     }
+    
 `;
 
 const PercentCard = ({text,numbertext, Color})=>{
