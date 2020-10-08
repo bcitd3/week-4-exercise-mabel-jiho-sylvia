@@ -6,10 +6,12 @@ const HeaderBox = styled.div`
 `;
 
 const HeaderTitle = styled.h1`
-    margin-bottom:-10px;
+    margin-bottom:15px;
+    font-size: 65px;
 `
-const SubText = styled.h3`
-    max-width:200px;
+const SubText = styled.div`
+    max-width:250px;
+    font-size: 27px;
 `
 
 const Header = ({title, subtext})=>{

@@ -6,4 +6,4 @@ export default {
   component: BigCard
 };
 
-export const BasicBigCard = () => <BigCard />;
+export const BasicBigCard = () => <BigCard/>;
