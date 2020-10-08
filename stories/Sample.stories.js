@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Comp from '../comps/Comp';
 
 export default {
@@ -6,4 +6,4 @@ export default {
   component: Comp
 };
 
-export const BasicComp = () => <Comp />;
+export const BasicComp = () => <Comp />;*/
