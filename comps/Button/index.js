@@ -11,8 +11,9 @@ const ButtonBox = styled.div`
     align-items:center;
 `;
 
-const ButtonText = styled.h2`
+const ButtonText = styled.div`
     color:#FFF;
+    font-size:27px;
 `
 
 const Button = ({text})=>{

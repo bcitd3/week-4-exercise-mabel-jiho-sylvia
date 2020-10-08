@@ -11,16 +11,19 @@ const BigCardBox = styled.div`
     flex-direction:column;
 `;
 
-const BigCardSubtitle = styled.h2`
+const BigCardSubtitle = styled.div`
     color: #C1FBFF;
     margin-left:45px;
+    font-size:27px;
+    margin-top:20px;
 `
 
-const BigCardText = styled.h1`
+const BigCardText = styled.div`
     color:#FFF;
     margin-left:45px;
-    margin-top:-2px;
+    margin-top:20px;
     max-width:200px;
+    font-size:36px;
 `
 
 const BigCard = ({title,subtitle})=>{
