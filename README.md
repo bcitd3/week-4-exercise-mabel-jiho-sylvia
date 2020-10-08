@@ -9,6 +9,6 @@ Comps A - person A
 ... etc
 
 Components:
-Sylvia - SliderCard, InfoCard, Header
+Sylvia - SliderCard, InfoCard, 
 Jiho: PercentCard, NumberCard, PieCard
-Mabel: BigCard, ButtonCard, Page
+Mabel: BigCard, ButtonCard, Header
