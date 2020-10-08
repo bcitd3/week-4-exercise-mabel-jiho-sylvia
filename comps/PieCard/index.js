@@ -7,6 +7,9 @@ const PieCardBox = styled.div`
     justify-content:center;
     width:216px;
     align-items:center;
+    box-shadow: 6px 5px 21px rgba(10, 23, 34, 0.12);
+    border-radius: 10px;
+    padding:10px;
 
     .text {
         text-align: center;
@@ -36,7 +39,16 @@ const PieCardBox = styled.div`
         width: 150px;
         min-height: 150px;
         margin: 0;
-        
+
+        .pienumber {
+            position:absolute;
+            left:55px;
+            top:65px;
+            color:#729cf0;
+            font-size:18px;
+            weight:400
+        }
+
     }
     
     .pie-wrapper span:after {
@@ -55,7 +67,7 @@ const PieCardBox = styled.div`
 const PieCard = ({text, pienumber})=>{
   return <PieCardBox>
       <div className="pie-wrapper">
-          {pienumber}%
+          <div className="pienumber">{pienumber}%</div>
       </div>
       <div className="text">{text}</div>
   </PieCardBox>

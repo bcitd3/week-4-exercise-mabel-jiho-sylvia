@@ -37,7 +37,7 @@ const PercentCard = ({text,numbertext, Color})=>{
 PercentCard.defaultProps = {
     text: "text",
     numbertext:"123",
-    Color: "#000"
+    Color: "#00c1cd"
 }
 
 
