@@ -7,3 +7,8 @@ Write down your work distribution in here
 Comps A - person A
 
 ... etc
+
+Components:
+Sylvia - SliderCard, InfoCard, 
+Jiho: PercentCard, NumberCard, PieCard
+Mabel: BigCard, ButtonCard, Header
